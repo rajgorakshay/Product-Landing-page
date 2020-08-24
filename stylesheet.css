@@ -1,0 +1,196 @@
+html {
+  background-color: lightgray;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 90px;
+}
+
+#title {
+  text-align: center;
+}
+
+#nav-bar {
+  height: 50px;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 4px black;
+}
+#header-img {
+  height: 100%;
+  width: 144px;
+  margin-left: 2.7%;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+}
+
+#nav-links {
+  display: flex;
+  width: 72%;
+  justify-content: space-around;
+  margin-top: 13px;
+}
+
+#howitworks {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  font-family: Arial, sans-sherif;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#wrapper {
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+}
+
+.content {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+#features {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#email {
+  min-width: 200px;
+  padding: 5px 5px;
+  margin: 15px 0;
+}
+
+#submit {
+  font-weight: bold;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+  padding: 10px 32px;
+  transition-duration: 0.9s;
+}
+#submit:hover {
+  background-color: rgb(255, 153, 18);
+}
+
+@media (max-width: 600px) {
+  #nav-bar {
+    display: flex;
+    position: static;
+  }
+}
+@media (min-width: 700px) {
+  #video {
+    height: 315px;
+    width: 560px;
+  }
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pricing {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pricing-card {
+  display: flex;
+  flex-flow: column;
+  background-color: lightgray;
+  width: 230px;
+  height: 110px;
+  text-align: center;
+  border: 1.2px solid black;
+}
+
+.dollartag {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.price-card-header {
+  text-align: center;
+  font-family: calibri;
+  font-weight: bold;
+  
+}
+
+.price-card-content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selectbtn {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  border: 0.2rem solid;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  display: inline-block;
+}
+
+.selectbtn:hover {
+  background-color: rgb(255, 153, 25);
+}
+
+.footercontainer {
+  display: flex;
+  background-color: orange;
+  justify-content: space-between;
+  float: right;
+  width: 100%;
+}
+
+.box {
+  max-width: 100px;
+}
+
+.one {
+  flex: 1;
+  order: 1;
+}
+.two {
+  flex: 2;
+  order: 2;
+}
+
+.box3 {
+  flex: 3;
+  order: 3;
+}
